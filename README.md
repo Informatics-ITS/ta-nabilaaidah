@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Nabila A'idah Diani
+**NRP**: 5025211032  
+**Judul TA**: Sistem Deteksi <i>Malicious Events</i> dengan Pendekatan <i>Continuous Retraining</i> dan <i>Distribution Shift Detection</i>  
+**Dosen Pembimbing**: Dr. Baskoro Adi Pratomo, S.Kom., M.Kom.  
+**Dosen Ko-pembimbing**: Hudan Studiawan, S.Kom., M.Kom., Ph.D.
 
 ---
 
