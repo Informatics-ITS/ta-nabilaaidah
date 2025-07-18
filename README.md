@@ -1,6 +1,6 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: Nabila A'idah Diani
+**Nama Mahasiswa**: Nabila A'idah Diani   
 **NRP**: 5025211032  
 **Judul TA**: Sistem Deteksi <i>Malicious Events</i> dengan Pendekatan <i>Continuous Retraining</i> dan <i>Distribution Shift Detection</i>  
 **Dosen Pembimbing**: Dr. Baskoro Adi Pratomo, S.Kom., M.Kom.  
@@ -21,55 +21,44 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
+- Daftar dependensi:
   - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-nabilaaidah.git
+   ```
+   Dan untuk Autoencoders, digunakan kode yang berada pada repo OWAD
+   ```bash
+   git clone https://github.com/dongtsi/OWAD.git
    ```
 2. **Instalasi Dependensi**
+
+   Setelah melakukan cloning pada repo OWAD, lakukan instalasi requirements yang berada pada direktori tersebut.
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   cd OWAD
+   pip install -r requirements.txt 
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
-   ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
-   ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
-
----
-
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
+3. **Jalankan Aplikasi** 
+   
+   Eksekusi kode pada setiap jupyter notebook.
 
 ## ✅ Validasi
 
 Pastikan proyek memenuhi kriteria berikut sebelum submit:
 - Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
 - README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+- Tidak ada data sensitif yang ter-expose
+
+## ⚠️ Warning
+- Untuk mendapatkan dataset, harap hubungi penulis maupun pembimbing utama melalui email yang tersedia
+- Terdapat beberapa code yang di-comment karena kebutuhan penulis, pengguna dapat melakukan uncomment sesuai kebutuhan masing-masing
 
 ---
 
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: aidahdiani@gmail.com
+- Pembimbing Utama: baskoro@its.ac.id
