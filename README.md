@@ -35,10 +35,17 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
    ```
 2. **Instalasi Dependensi**
 
-   Setelah melakukan cloning pada repo OWAD, lakukan instalasi requirements yang berada pada direktori tersebut.
+   Buat environment
    ```bash
-   cd OWAD
-   pip install -r requirements.txt 
+   conda create -n <nama-env> python-3.10.6
+   ```
+   Aktifkan environment
+   ```bash
+   conda activate <nama-env>
+   ```
+   Install dependensi
+   ```bash
+   pip install -r requirement.txt 
    ```
 3. **Jalankan Aplikasi** 
    
